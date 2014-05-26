@@ -313,7 +313,7 @@ The parameters are defined here (some are method-specific):
 Installing *best_in_place* is very easy and straight-forward, even more
 thanks to Rails 3.1. Just begin including the gem in your Gemfile:
 
-    gem "best_in_place"
+    gem "best_in_place", :git => 'https://github.com/aaronchi/best_in_place.git'
 
 After that, specify the use of the jquery and best in place
 javascripts in your application.js, and optionally specify jquery-ui if
